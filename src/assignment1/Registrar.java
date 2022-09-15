@@ -57,4 +57,24 @@ public class Registrar {
         return d;
 
     }
+
+    public static boolean remove(String courseName, String courseLetter, Transcript transcript){
+        boolean b = false;
+
+        return b;
+    }
+
+    public static boolean remove(String courseLetter, Transcript transcript){
+        boolean b = false;
+
+        return b;
+    }
+
+    public static boolean remove(double coursePoint, Transcript transcript){
+        boolean b = false;
+
+        return b;
+    }
+
+
 }

@@ -1,8 +1,5 @@
 package assignment1;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 /**
  * @author Wei Liu 3718446;
  */

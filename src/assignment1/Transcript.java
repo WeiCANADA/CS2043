@@ -47,12 +47,20 @@ public class Transcript {
         }
     }
 
+    public int getGradesQTY(){
+        return this.gradesQTY;
+    }
+
+    public Grade[] getGrades(){
+        return this.grades;
+    }
+
     public double calculate_GPA() {
         double sum = 0;
-        for (int i = 0; i < gradesQTY; i++) {
-            sum += grades[i].getGradePoint() * grades[i].getCreditHour();
+        for (int i = 0; i < getGradesQTY(); i++) {
+            sum += getGrades()[i].getGradePoint() * getGrades()[i].getCreditHour();
         }
-        return sum / gradesQTY;
+        return sum / getGradesQTY();
     }
 
 }
